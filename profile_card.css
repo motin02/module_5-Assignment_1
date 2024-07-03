@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{ 
+  width: 100%;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+    
+}
+.card {
+  box-shadow: 0 6px 10px 8px rgba(95, 94, 94, 0.8);
+  max-width: 400px;
+  min-height: 300PX;
+  align-items: center;
+  text-align: center;
+  font-family: cursive;
+  background-color: rgba(84, 227, 134, 0.993);
+  border-radius: 10px;
+ 
+}
+
+img{
+  margin-top: 14px;
+ border: 2px solid #1A5319; 
+  
+  border-radius: 50%;
+}
+  img:hover{ 
+    transform: scale(1.1);
+  }
+.title {
+  color: rgba(32, 29, 29, 0.998);
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom:5px ;
+  opacity: 0.8;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mark { 
+  color: black;
+  font-weight: 600;
+  font-family: cursive;
+
+} 
+.fa-brands{ 
+  margin: 30px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  transition:0.3s ;
+}
+.fa-brands:hover{ 
+transform: scale(1.9);
+color: white;
+background-color: black;
+}
+
+.Contact { 
+  margin-top: 8px;
+  font-size: 13px;
+}
+#mail:hover { 
+  background-color:gray;
+color: white;
+cursor:pointer ;
+border-radius: 5px;
+
+}
+#phone:hover{ 
+  background-color:gray;
+color: white;
+cursor:pointer ;
+
+border-radius: 5px;
+
+
+}
+
+button {
+  border: none;
+  outline:0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #133a7a;
+  text-align: center;
+  
+  cursor: pointer;
+  width:100%;
+  font-size: 18px;
+border-radius: 5px;
+
+}
+
+ a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+} 
+
+button:hover, a:hover {
+    opacity: 0.7;}
